@@ -1,0 +1,52 @@
+[
+    {
+        "park_code": "alfl",
+        "name": "Alibates Flint Quarries National Monument",
+        "states": "TX"
+    },
+    {
+        "park_code": "blsc",
+        "name": "Blackwell School National Historic Site",
+        "states": "TX"
+    },
+    {
+        "park_code": "bibe",
+        "name": "Big Bend National Park",
+        "states": "TX"
+    },
+    {
+        "park_code": "cari",
+        "name": "Cane River Creole National Historical Park",
+        "states": "LA"
+    },
+    {
+        "park_code": "vick",
+        "name": "Vicksburg National Military Park",
+        "states": "MS,LA"
+    },
+    {
+        "park_code": "fiis",
+        "name": "Fire Island National Seashore",
+        "states": "NY"
+    },
+    {
+        "park_code": "hagr",
+        "name": "Hamilton Grange National Memorial",
+        "states": "NY"
+    },
+    {
+        "park_code": "trte",
+        "name": "Trail Of Tears National Historic Trail",
+        "states": "AL,AR,GA,IL,KY,MO,NC,OK,TN"
+    },
+    {
+        "park_code": "chch",
+        "name": "Chickamauga & Chattanooga National Military Park",
+        "states": "GA,TN"
+    },
+    {
+        "park_code": "ocmu",
+        "name": "Ocmulgee Mounds National Historical Park",
+        "states": "GA"
+    }
+]

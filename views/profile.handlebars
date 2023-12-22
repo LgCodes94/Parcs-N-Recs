@@ -1,0 +1,27 @@
+{{> search-bar}}
+<div class="card"> {{name}}</div>
+<div class="columns is-multiline">
+  {{#each data.data as |park|}}
+  <div class="card column is-one-third">
+    <div class="card-image">
+      <figure class="image is-4by3">
+        <img src="{{park.images.[0].url}}" alt="Placeholder image">
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media-content">
+        <a href="{{park.url}}" class="title is-4">{{park.fullName}}</a>
+      </div>
+    </div>
+    <div class="content">
+      {{park.description}}
+      <br>
+      <a href="{{park.directionsUrl}}">Directions</a>
+      <br>
+      <button type="submit" class="button delete-favorites" data-parkCode="{{park.parkCode}}">
+        Remove from Favorites</button>
+    </div>
+  </div>
+  {{/each}}
+</div>
+<script src="/js/profile.js"></script>

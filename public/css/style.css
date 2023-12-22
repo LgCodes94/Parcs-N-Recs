@@ -1,0 +1,39 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  background-color: #fff;
+}
+
+.card-content {
+  font-size: 1rem;
+  color: #555;
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+  color: #888;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.media-content {
+
+  /* unvisited link */
+  a:link {
+    color: black;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: rgb(0, 119, 255);
+  }
+
+}

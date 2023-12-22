@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ParcsNRecs</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <nav class=" navbar is-black" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <figure class="image is-96x96">
+        <img class="is-rounded"
+          src="https://1000logos.net/wp-content/uploads/2023/02/National-Park-Service-Logo-1952.png">
+      </figure>
+
+      <a role=" button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a href="/" class="navbar-item">
+          National Park Services
+        </a>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="field is-grouped">
+              <p class="control">
+              <div class="buttons">
+                {{#if logged_in}}
+                <a class="button is-danger" id="logout">Log out</a>
+                {{else}}
+                <a class="button is-primary" href="/login">
+                  Log in
+                </a>
+                {{/if}}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </nav>
+
+  <section class="hero is-fullheight"
+    style="background-image: url('https://www.onetravel.com/going-places/wp-content/uploads/2017/12/banff-810x486.jpg'); background-size: cover; background-position: center;">
+    <div class="flex-column justify-space-around">
+      {{!-- <main class="container container-fluid mt-5">
+        <!-- Render the sub layout -->
+        {{{ body }}}
+      </main>
+    </div> --}}
+    {{!--
+    <script src="/js/test.js"></script> --}}
+
+    {{!-- <div class="flex-column justify-space-around">
+      <header class="display-flex justify-space-between align-center p-2">
+        {{!-- <h1>
+          <span role="img" aria-label="money">💸</span>
+          <a href="/">ParcsNRecs!</a>
+        </h1> --}}
+      </header>
+      <main class="container container-fluid mt-5">
+        <!-- Render the sub layout -->
+        {{{ body }}}
+      </main>
+    </div>
+    {{!--
+    <script src="/js/test.js"></script> --}}
+    {{#if logged_in}}
+    <script src="/js/logout.js"></script>
+    {{/if}} --}}
+  </section>
+</body>
+
+</html>

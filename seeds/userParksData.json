@@ -1,0 +1,42 @@
+[
+    {
+        "user_id": 1,
+        "park_id": 2
+    },
+    {
+        "user_id": 1,
+        "park_id": 3
+    },
+    {
+        "user_id": 1,
+        "park_id": 4
+    },
+    {
+        "user_id": 2,
+        "park_id": 7
+    },
+    {
+        "user_id": 2,
+        "park_id": 6
+    },
+    {
+        "user_id": 2,
+        "park_id": 9
+    },
+    {
+        "user_id": 3,
+        "park_id": 10
+    },
+    {
+        "user_id": 3,
+        "park_id": 8
+    },
+    {
+        "user_id": 3,
+        "park_id": 5
+    },
+    {
+        "user_id": 3,
+        "park_id": 1
+    }
+]
